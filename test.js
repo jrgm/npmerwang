@@ -1,8 +1,6 @@
 const add = require('.')
 
-test('add', () => {
+it('add', () => {
+  expect.assertions(1)
   expect(add(1, 2)).toEqual(3)
 })
-
-
-
